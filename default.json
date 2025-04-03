@@ -22,6 +22,11 @@
       "matchManagers": ["github-actions"],
       "matchUpdateTypes": ["digest"],
       "enabled": false
+    },
+    {
+      "matchPackagePatterns": [".*"],
+      "automerge": false,
+      "autoApprove": false
     }
   ],
   "vulnerabilityAlerts": {
