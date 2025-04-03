@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["./default.json"],
+  "packageRules": [
+    {
+      "groupName": "Veera common projects",
+      "labels": ["veera-deps-update"],
+      "matchPackageNames": ["/^@sentry//", "/winston/", "/dotenv/"]
+    }
+  ]
+}
