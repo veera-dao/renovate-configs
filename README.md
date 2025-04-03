@@ -12,7 +12,7 @@ In your repo’s `renovate.json`:
 
 ```json
 {
-  "extends": ["github>veera-dao/renovate-config"]
+  "extends": ["github>veera-dao/renovate-configs"]
 
 }
 ```
@@ -22,6 +22,6 @@ In your repo’s `renovate.json`:
 
 ```json
 {
-  "extends": ["github>veera-dao/renovate-config:typescript"]
+  "extends": ["github>veera-dao/renovate-configs:typescript"]
 
 }
