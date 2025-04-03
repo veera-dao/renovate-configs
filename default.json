@@ -12,8 +12,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "major", "patch", "pin", "pinDigest", "digest"],
-      "minimumReleaseAge": "7 days",
-      "schedule": ["* * * * 2-4"]
+      "minimumReleaseAge": "7 days"
     },
     {
       "matchManagers": ["github-actions"],
