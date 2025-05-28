@@ -9,6 +9,7 @@
   "timezone": "Asia/Kolkata",
   "schedule": ["before 5am on Monday"],
   "dependencyDashboard": true,
+  "labels": ["renovate-bot"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "major", "patch", "pin", "pinDigest", "digest"],
