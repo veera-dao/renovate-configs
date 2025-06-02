@@ -10,6 +10,7 @@
   "schedule": ["before 5am on Monday"],
   "dependencyDashboard": true,
   "labels": ["renovate-bot"],
+  "forkProcessing": "enabled",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "major", "patch", "pin", "pinDigest", "digest"],
