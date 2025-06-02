@@ -11,6 +11,9 @@
   "dependencyDashboard": true,
   "labels": ["renovate-bot"],
   "forkProcessing": "enabled",
+  "repositories": [
+    "veera-dao/wallet-standard-veera"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "major", "patch", "pin", "pinDigest", "digest"],
